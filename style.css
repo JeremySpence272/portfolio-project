@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Geist';
+    src: url('font/geist/Geist-Regular.woff2') format('woff2'),
+         url('font/geist/Geist-Regular.otf') format('opentype');
+    /* You can specify other font properties like font-weight and font-style here */
+}
+h1 {
+    font-family: 'Geist', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Geist', sans-serif;
+    font-weight:600;
+    font-size:1rem;
+}
+
+p {
+    font-family: 'Geist', sans-serif;
+    font-size:1rem;
+    color:#404040;
+}
+
+#container {
+    margin-top:60px;
+}
